@@ -1,0 +1,27 @@
+body {
+    padding: 50px 100px;
+    line-height: 30px;
+}
+.top a {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    color: #333;
+}
+.top a.active {
+    font-weight: bold;
+    color: #ff0d01;
+}
+#emulator, #result, #history, .success {
+    display: none;
+}
+.success {
+    color: #108f04;
+}
+.success.error {
+    color: #ff0d01;
+}
+table td, table th {
+    border: 1px solid #CCC;
+    text-align: center;
+    padding:5px;
+}
